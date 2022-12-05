@@ -10,4 +10,48 @@ body {
   font-size: 1.6rem;
   min-height: 100vh;
   place-items: center;
+}
+
+.text-highlight {
+  color: hsl(0deg, 36%, 70%);
+  font-weight: 300;
+}
+
+.soon {
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+  display: grid;
+  grid-template-areas: "logo hero" "content hero";
+  grid-template-columns: 1.35fr 1fr;
+  grid-template-rows: 1fr 2.35fr;
+  max-width: 144rem;
+}
+.soon__logo {
+  grid-area: logo;
+  padding-left: 16rem;
+  padding-top: 6.5rem;
+}
+.soon__content {
+  grid-area: content;
+  padding-left: 16rem;
+}
+.soon__title {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  line-height: 1.3;
+  padding-right: 30rem;
+  text-transform: uppercase;
+}
+.soon__desc {
+  color: hsl(0deg, 36%, 70%);
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding-right: 24rem;
+}
+.soon__hero {
+  grid-area: hero;
 }/*# sourceMappingURL=style.css.map */
