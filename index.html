@@ -18,11 +18,12 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
+        color: hsl(0, 6%, 24%);
         font-size: 11px;
         text-align: center;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(0, 36%, 70%);
       }
     </style>
   </head>
@@ -41,13 +42,18 @@
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <div class="input-wrapper">
+          <form class="input-wrapper">
             <input
-              type="text"
+              type="email"
               class="input-control"
               placeholder="Email Address"
             />
-          </div>
+            <img class="error-icon" src="./images/icon-error.svg" alt="error" />
+            <button>
+              <img src="./images/icon-arrow.svg" alt="arrow" />
+            </button>
+            <p>Please provide a valid email</p>
+          </form>
         </div>
         <div class="soon__hero">
           <picture>
