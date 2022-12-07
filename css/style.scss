@@ -86,6 +86,7 @@ body {
       position: absolute;
       right: 0;
       top: 0;
+      transition: opacity 0.2 ease;
       width: 10rem;
       &:hover {
         opacity: 0.7;
